@@ -40,7 +40,7 @@ function Form() {
                     <label for="phone" class="formbold-form-label"> Phone </label>
                     <div>
                         <input
-                            type="text"
+                            type="tel"
                             name="phone"
                             id="phone"
                             placeholder="Phone number"
@@ -82,7 +82,7 @@ function Form() {
 
                 <div class="formbold-mb-3">
                     <label class="formbold-form-label">Experience</label>
-                    <select class="formbold-form-input" name="experience" id="experience">
+                    <select class="formbold-form-input" name="hasexperience" id="experience">
                         <option value="has_experience">Has relevant experience</option>
                         <option value="no_experience">No relevant experience</option>
                     </select>

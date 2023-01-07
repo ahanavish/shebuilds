@@ -5,8 +5,11 @@ function Header() {
         <header>
             <ul>
                 <li>
-                    <a href="#"> Up<span>Hire</span> </a>
+                    <a href="#">Up<span>Hire</span></a>
                 </li>
+                {/* <li className="about">
+                    <a href="#">About</a>
+                </li> */}
             </ul>
         </header>
     );

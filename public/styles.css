@@ -9,17 +9,16 @@ html {
 }
 
 body {
-    background: #eee;
+    background: #EEEEEE;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     padding: 0 16px;
 }
 
 header {
-    background-color: #EAEAEA;
+    background-color: #EEEEEE;
     margin: auto -16px;
-    padding: 16px 32px;
+    padding: 26px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    text-align: center;
 }
 
 header * {
@@ -35,7 +34,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: #3C4048;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -45,7 +44,6 @@ header li a {
 header span {
     color: rgb(14, 193, 130);
 }
-
 
 header h1 {
     color: #fff;
@@ -92,7 +90,7 @@ form {
     max-width: 570px;
     width: 100%;
     background: white;
-    padding: 40px;
+    padding: 60px;
 }
 
 .formbold-img {
@@ -134,7 +132,8 @@ select.formbold-form-input,
 .formbold-form-input[type='date']::-webkit-datetime-edit-month-field,
 .formbold-form-input[type='date']::-webkit-datetime-edit-day-field,
 .formbold-form-input[type='date']::-webkit-datetime-edit-year-field {
-    color: rgba(83, 99, 135, 0.5);
+    color: rgb(112 119 136 / 50%);
+    font-size: 13px;
 }
 
 .formbold-form-input:focus {
@@ -143,25 +142,28 @@ select.formbold-form-input,
 }
 
 .formbold-form-label {
-    color: #222937;
+    color: #3C4048;
     font-size: 14px;
     line-height: 24px;
     display: block;
     margin-bottom: 10px;
+    letter-spacing: 0.5px;
 }
 
 .formbold-checkbox-label {
     display: flex;
     cursor: pointer;
     user-select: none;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
-    color: #222937;
+    color: #3C4048;
+    letter-spacing: 0.5px;
 }
 
 .formbold-checkbox-label a {
     margin-left: 5px;
-    color: #222937;
+    color: #3C4048;
+    letter-spacing: 0.5px;
 }
 
 .formbold-input-checkbox {
@@ -226,7 +228,7 @@ select.formbold-form-input,
     padding: 14px 25px;
     border: none;
     font-weight: 500;
-    background-color: #6a64f1;
+    background-color: rgb(14, 193, 130);
     color: white;
     cursor: pointer;
     margin-top: 25px;
@@ -250,9 +252,9 @@ heading {
 
 heading h1 {
     font-size: 60px;
-    padding-top: 120px;
-    padding-bottom: 50px;
-    color: black;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    color: #3C4048;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -263,9 +265,10 @@ heading span {
 headtext h1 {
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 100px;
     font-family: 'Raleway', sans-serif;
     font-size: 23px;
     line-height: 40px;
     letter-spacing: 0.5px;
-    color: rgba(78, 89, 86, 0.683);
+    color: #7a7c7e;
 }
