@@ -5,7 +5,7 @@ function Form() {
         <div>
             <form action="https://formbold.com/s/FORM_ID" method="POST">
                 <div class="formbold-input-wrapp formbold-mb-3">
-                    <label for="firstname" class="formbold-form-label"> Name </label>
+                    <label for="firstname" class="formbold-form-label"> Name of the employee</label>
                     <div>
                         <input
                             type="text"
@@ -119,33 +119,33 @@ function Form() {
                     </select>
                 </div>
 
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="experience" class="formbold-form-label"> Experience </label>
-                        <input
-                            type="number"
-                            name="experience"
-                            id="experience"
-                            placeholder="ex: 5"
-                            class="formbold-form-input"
-                        />
-                    </div>
+                <div class="formbold-mb-3">
+                    <label for="experience" class="formbold-form-label"> Experience </label>
+                    <input
+                        type="number"
+                        name="experience"
+                        id="experience"
+                        placeholder="ex: 5"
+                        class="formbold-form-input"
+                    />
                 </div>
 
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="company_size" class="formbold-form-label"> Company size </label>
-                        <input
-                            type="number"
-                            name="company_size"
-                            id="company_size"
-                            placeholder="ex: 500"
-                            class="formbold-form-input"
-                        />
-                    </div>
+
+                <div class="formbold-mb-3">
+                    <label for="company_size" class="formbold-form-label"> Company size </label>
+                    <input
+                        type="number"
+                        name="company_size"
+                        id="company_size"
+                        placeholder="ex: 500"
+                        class="formbold-form-input"
+                    />
                 </div>
 
-                <button class="formbold-btn">Submit</button>
+                <div class="button">
+                    <button class="formbold-btn">Submit</button>
+                </div>
+
             </form>
         </div>
     )

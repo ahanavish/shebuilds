@@ -5,10 +5,7 @@ function Header() {
         <header>
             <ul>
                 <li>
-                    <a href="#"> Name </a>
-                </li>
-                <li>
-                    <a href="#"> Blogs </a>
+                    <a href="#"> Up<span>Hire</span> </a>
                 </li>
             </ul>
         </header>

@@ -19,6 +19,7 @@ header {
     margin: auto -16px;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 header * {
@@ -36,11 +37,18 @@ header li {
 header li a {
     color: black;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
 }
+
+header span {
+    color: rgb(14, 193, 130);
+}
+
 
 header h1 {
     color: #fff;
-    font-family: "McLaren", cursive;
     font-weight: 200;
 }
 
@@ -70,15 +78,6 @@ form {
 .formbold-stroke-current {
     stroke: #ffffff;
     z-index: 999;
-}
-
-#supportCheckbox:checked~div span {
-    opacity: 1;
-}
-
-#supportCheckbox:checked~div {
-    background: #6a64f1;
-    border-color: #6a64f1;
 }
 
 .formbold-main-wrapper {
@@ -144,7 +143,7 @@ select.formbold-form-input,
 }
 
 .formbold-form-label {
-    color: #536387;
+    color: #222937;
     font-size: 14px;
     line-height: 24px;
     display: block;
@@ -157,12 +156,12 @@ select.formbold-form-input,
     user-select: none;
     font-size: 16px;
     line-height: 24px;
-    color: #536387;
+    color: #222937;
 }
 
 .formbold-checkbox-label a {
     margin-left: 5px;
-    color: #6a64f1;
+    color: #222937;
 }
 
 .formbold-input-checkbox {
@@ -185,7 +184,7 @@ select.formbold-form-input,
     height: 20px;
     margin-right: 16px;
     margin-top: 2px;
-    border: 0.7px solid #dde3ec;
+    border: 0.7px solid #c5c5c5;
     border-radius: 3px;
 }
 
@@ -209,13 +208,16 @@ select.formbold-form-input,
     padding: 3px 12px;
     outline: none;
     white-space: nowrap;
-    -webkit-user-select: none;
     cursor: pointer;
     color: #637381;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     margin-right: 10px;
+}
+
+.button {
+    text-align: center;
 }
 
 .formbold-btn {
@@ -240,4 +242,30 @@ select.formbold-form-input,
 
 input[type="text"] {
     width: 565px;
+}
+
+heading {
+    text-align: center;
+}
+
+heading h1 {
+    font-size: 60px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+heading span {
+    color: rgb(14, 193, 130);
+}
+
+headtext h1 {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: rgba(78, 89, 86, 0.683);
 }
