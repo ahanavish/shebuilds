@@ -6,7 +6,6 @@ function Form() {
             <form action="https://formbold.com/s/FORM_ID" method="POST">
                 <div class="formbold-input-wrapp formbold-mb-3">
                     <label for="firstname" class="formbold-form-label"> Name </label>
-
                     <div>
                         <input
                             type="text"
@@ -25,6 +24,7 @@ function Form() {
                         />
                     </div>
                 </div>
+
                 <div class="formbold-mb-3">
                     <label for="email" class="formbold-form-label"> Email </label>
                     <input
@@ -50,45 +50,83 @@ function Form() {
                 </div>
 
                 <div class="formbold-mb-3">
-                    <label for="age" class="formbold-form-label"> City code </label>
+                    <label for="city_code" class="formbold-form-label"> City Code </label>
                     <input
-                        type="text"
-                        name="age"
-                        id="age"
+                        type="number"
+                        name="city_code"
+                        id="city_code"
                         placeholder="ex:205"
                         class="formbold-form-input"
                     />
                 </div>
 
                 <div class="formbold-mb-3">
-                    <label for="age" class="formbold-form-label"> City Development Index </label>
+                    <label for="city_dev_index" class="formbold-form-label"> City Development Index </label>
                     <input
-                        type="text"
-                        name="age"
-                        id="age"
-                        placeholder="ex:205"
+                        type="number"
+                        name="city_dev_index"
+                        id="city_dev_index"
+                        placeholder="ex:0.24"
                         class="formbold-form-input"
                     />
                 </div>
 
                 <div class="formbold-mb-3">
                     <label class="formbold-form-label">Gender</label>
-
-                    <select class="formbold-form-input" name="occupation" id="occupation">
+                    <select class="formbold-form-input" name="gender" id="gender">
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="others">Others</option>
                     </select>
                 </div>
 
+                <div class="formbold-mb-3">
+                    <label class="formbold-form-label">Experience</label>
+                    <select class="formbold-form-input" name="experience" id="experience">
+                        <option value="has_experience">Has relevant experience</option>
+                        <option value="no_experience">No relevant experience</option>
+                    </select>
+                </div>
+
+                <div class="formbold-mb-3">
+                    <label class="formbold-form-label">Enrolled University</label>
+                    <select class="formbold-form-input" name="university" id="university">
+                        <option value="full_time">Full time course</option>
+                        <option value="part_time">Part time course</option>
+                        <option value="no_enrollment">No enrollment</option>
+                    </select>
+                </div>
+
+                <div class="formbold-mb-3">
+                    <label class="formbold-form-label">Education level</label>
+                    <select class="formbold-form-input" name="education" id="education">
+                        <option value="high_school">High School</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="masters">Masters</option>
+                        <option value="phd">PhD</option>
+                    </select>
+                </div>
+
+                <div class="formbold-mb-3">
+                    <label class="formbold-form-label">Major Discipline</label>
+                    <select class="formbold-form-input" name="discipline" id="discipline">
+                        <option value="stem">STEM</option>
+                        <option value="humanities">Humanities</option>
+                        <option value="arts">Arts</option>
+                        <option value="no_major">No major</option>
+                        <option value="business">Business Degree</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
                 <div class="formbold-input-flex">
                     <div>
-                        <label for="city" class="formbold-form-label"> Relevant Experience </label>
+                        <label for="experience" class="formbold-form-label"> Experience </label>
                         <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
+                            type="number"
+                            name="experience"
+                            id="experience"
+                            placeholder="ex: 5"
                             class="formbold-form-input"
                         />
                     </div>
@@ -96,136 +134,15 @@ function Form() {
 
                 <div class="formbold-input-flex">
                     <div>
-                        <label for="city" class="formbold-form-label"> Enrolled University </label>
+                        <label for="company_size" class="formbold-form-label"> Company size </label>
                         <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
+                            type="number"
+                            name="company_size"
+                            id="company_size"
+                            placeholder="ex: 500"
                             class="formbold-form-input"
                         />
                     </div>
-                </div>
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Education level </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Major Discipline </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Experience </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Company size </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Company type </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Year gap between last and current job </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-input-flex">
-                    <div>
-                        <label for="city" class="formbold-form-label"> Training hours </label>
-                        <input
-                            type="text"
-                            name="city"
-                            id="city"
-                            placeholder="ex: New York"
-                            class="formbold-form-input"
-                        />
-                    </div>
-                </div>
-
-                <div class="formbold-checkbox-wrapper">
-                    <label for="supportCheckbox" class="formbold-checkbox-label">
-                        <div class="formbold-relative">
-                            <input
-                                type="checkbox"
-                                id="supportCheckbox"
-                                class="formbold-input-checkbox"
-                            />
-                            <div class="formbold-checkbox-inner">
-                                <span class="formbold-opacity-0">
-                                    <svg
-                                        width="11"
-                                        height="8"
-                                        viewBox="0 0 11 8"
-                                        class="formbold-stroke-current"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M8.81868 0.688604L4.16688 5.4878L2.05598 3.29507C1.70417 2.92271 1.1569 2.96409 0.805082 3.29507C0.453266 3.66742 0.492357 4.24663 0.805082 4.61898L3.30689 7.18407C3.54143 7.43231 3.85416 7.55642 4.16688 7.55642C4.47961 7.55642 4.79233 7.43231 5.02688 7.18407L10.0696 2.05389C10.4214 1.68154 10.4214 1.10233 10.0696 0.729976C9.71776 0.357624 9.17049 0.357625 8.81868 0.688604Z"
-                                            fill="white"
-                                        />
-                                    </svg>
-                                </span>
-                            </div>
-                        </div>
-                        I agree to the defined
-                        <a href="#"> terms, conditions, and policies</a>
-                    </label>
                 </div>
 
                 <button class="formbold-btn">Submit</button>
