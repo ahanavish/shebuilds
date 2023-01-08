@@ -16,7 +16,7 @@ Our project, UpHire will assist firms in determining how many of their applicant
 
 ## Skills used
 
-* Machine Learning (Streamlit Pickle, Pandas Numpy, Plotly, Matplotlib.pyplot, Seaborn)
+* Machine Learning (Streamlit, Pickle, Pandas, Numpy, Plotly, Matplotlib.pyplot, Seaborn)
 * React
 * Django
 
