@@ -1,4 +1,4 @@
-#SheBUilds Hackathon
+# SheBuilds Hackathon
 
 ## Problem we aim to solve
 
