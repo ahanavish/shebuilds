@@ -1,5 +1,8 @@
 # SheBuilds Hackathon
 
+<img src="UpHire.jpeg" alt="Banner" height='340' width='1000'/>
+<hr>
+
 ## Problem we aim to solve
 
 Employee retention is a major concern in the workplace. It's not only about keeping your employees happy; it's also about retaining your talent and ensuring the presence of the finest individuals on your team for the longest time possible.
