@@ -16,6 +16,20 @@ Our project, UpHire will assist firms in determining how many of their applicant
 
 ## Skills used
 
-* Machine Learning
+* Machine Learning (Streamlit Pickle, Pandas Numpy, Plotly, Matplotlib.pyplot, Seaborn)
 * React
 * Django
+
+## Dataset overview
+There are a total 19,158 number of observations or rows. We have used 10 factors:
+
+gender: Gender of the candidate
+relevent_experience: Relevant experience of the candidate
+enrolled_university: Type of University course enrolled if any
+education_level: Education level of candidate
+major_discipline: Education major discipline of the candidate
+experience: Candidate total experience in years
+company_size: No of employees in current employer’s company
+company_type: Type of current employer
+last_new_job: Difference in years between previous job and current job
+training_hours: Training hours completed
