@@ -1,8 +1,5 @@
 # SheBuilds Hackathon
 
-<img src="UpHire.jpeg" alt="Banner" height='340' width='1000'/>
-<hr>
-
 ## Problem we aim to solve
 
 Employee retention is a major concern in the workplace. It's not only about keeping your employees happy; it's also about retaining your talent and ensuring the presence of the finest individuals on your team for the longest time possible.
@@ -42,3 +39,8 @@ It is designed to understand the factors that lead a person to leave their curre
 ## Challenges we faced
 Challenges we ran into involved the integration of Django with React and ML models. 
 Major issues with Django were setting it up and getting our REST API on work as we tried Django for the first time. Also, there were many errors involved with creating models then making the respective views. 
+
+## How to run the application 
+* Clone the repo
+* Open the command prompt and change directory to the location where the repo is cloned.
+* Run streamlit run Strealit.py command
