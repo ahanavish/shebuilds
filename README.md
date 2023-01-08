@@ -34,6 +34,8 @@ There are a total 19,158 number of observations or rows. We have used 10 factors
 * last_new_job: Difference in years between previous job and current job
 * training_hours: Training hours completed
 
+It is designed to understand the factors that lead a person to leave their current job. Model(s) uses the current credentials, demographics, and experience data to predict the probability of a candidate looking for a new job or will work for the company and interpret affected factors on employee decision.
+
 ## Challenges we faced
 Challenges we ran into involved the integration of Django with React and ML models. 
 Major issues with Django were setting it up and getting our REST API on work as we tried Django for the first time. Also, there were many errors involved with creating models then making the respective views. 
