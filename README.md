@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Problem we aim to solve
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Employee retention is a major concern in the workplace. It's not only about keeping your employees happy; it's also about retaining your talent and ensuring the presence of the finest individuals on your team for the longest time possible.
 
-## Available Scripts
+One-third of new employees depart within six months, according to data. According to the Job Openings and Labor Turnover Survey, 3 to 4.5 million Americans leave their employment each month (JOLTS).
 
-In the project directory, you can run:
+Employee turnover has been increasing in recent years, according to statistics. Employers are not only losing great talent, but they are also dealing with the challenges of hiring, training, and replacing lost staff. Finding the finest personnel often entails advertising job ads, recruiting agencies, screening, interviewing, and hiring. This amounts to a significant investment of time, money, and energy in replacing people who could have been maintained with an effective employee retention plan.
 
-### `npm start`
+Employee retention rates of 90% or above are considered adequate, and a firm should aspire for a turnover rate of 10% or below. The greatest method to retain employees is to make them feel appreciated, provide them with training programs or mentorship opportunities that will aid in the development of new skill sets for advancement within your firm, and encourage them in communicating their ideas to management on a regular basis. Employee retention also boosts morale, lowers expenses, maintains a positive client experience, and lowers total costs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Our solution
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Our project, UpHire will assist firms in determining how many of their applicants are searching for a job move following the training period with up to 98% accuracy, saving them time, money, and energy. The corporation may then carefully, and successfully plan its courses and invest in long-term retention plans.
 
-### `npm test`
+# Skills used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Machine Learning
+* React
+* Django
