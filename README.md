@@ -33,3 +33,7 @@ There are a total 19,158 number of observations or rows. We have used 10 factors
 * company_type: Type of current employer
 * last_new_job: Difference in years between previous job and current job
 * training_hours: Training hours completed
+
+## Challenges we faced
+Challenges we ran into involved the integration of Django with React and ML models. 
+Major issues with Django were setting it up and getting our REST API on work as we tried Django for the first time. Also, there were many errors involved with creating models then making the respective views. 
