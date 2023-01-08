@@ -1,5 +1,8 @@
 # SheBuilds Hackathon
 
+<img src="static\vibe.jpg" alt="Banner" height='340' width='1000'/>
+<hr>
+
 ## Problem we aim to solve
 
 Employee retention is a major concern in the workplace. It's not only about keeping your employees happy; it's also about retaining your talent and ensuring the presence of the finest individuals on your team for the longest time possible.
@@ -43,4 +46,4 @@ Major issues with Django were setting it up and getting our REST API on work as 
 ## How to run the application 
 * Clone the repo
 * Open the command prompt and change directory to the location where the repo is cloned.
-* Run streamlit run Strealit.py command
+* Run streamlit `run Strealit.py` command
