@@ -1,6 +1,6 @@
 # SheBuilds Hackathon
 
-<img src="static\vibe.jpg" alt="Banner" height='340' width='1000'/>
+<img src="UpHire.jpeg" alt="Banner" height='340' width='1000'/>
 <hr>
 
 ## Problem we aim to solve
